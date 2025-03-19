@@ -5349,6 +5349,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96cbca8ec9574084babb752df7e675ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetScene: Room
 --- !u!114 &758573649
 MonoBehaviour:
   m_ObjectHideFlags: 0
