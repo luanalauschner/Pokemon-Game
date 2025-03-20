@@ -22,6 +22,7 @@ public class GameSceneManager : MonoBehaviour
             if(scene.name == "Essential"){
                 continue;
             }
+            curretnEnviromentScene = scene.name;
         }
     }
 

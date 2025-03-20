@@ -4,15 +4,9 @@ using UnityEngine;
 
 public class PlayerCharacter : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public PlayerData playerData;
+    public void AddMoney(int money)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        playerData.money += money;
     }
 }
