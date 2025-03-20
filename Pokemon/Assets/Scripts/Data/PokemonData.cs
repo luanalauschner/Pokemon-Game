@@ -43,6 +43,8 @@ public class PokemonData : ScriptableObject
     public string pokemonName;
     public ValueBlock stats;
 
+    public GameObject modelPrefab;
+
     [ContextMenu("Init")]
     public void Init(){
         stats = new ValueBlock();
