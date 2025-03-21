@@ -5,9 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class ChangeSceneInteract : MonoBehaviour
 {
-    [SerializeField] string targetScene;
+    //[SerializeField] string targetScene;
     public void ChangeScene()
     {
-        FindObjectOfType<GameSceneManager>().SwitchEnviromentScene(targetScene);
+        //FindObjectOfType<GameSceneManager>().SwitchEnviromentScene(targetScene);
+        SceneManager.LoadScene("Combat");
     }
 }

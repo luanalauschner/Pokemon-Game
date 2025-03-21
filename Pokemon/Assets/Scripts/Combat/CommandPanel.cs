@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class CommandPanel : MonoBehaviour
 {
+    [SerializeField] public CommandManager commandManager;
     public void Attack(){
-        Debug.Log("Attack");
+        commandManager.Attack();
     }
     public void Bag(){
         Debug.Log("Bag");

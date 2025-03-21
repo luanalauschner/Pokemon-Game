@@ -36,6 +36,11 @@ public class ValueBlock
             values.Add(new ValueContainer(0, (PokemonStats)i));
         }
     }
+
+    public int Get(PokemonStats statToGet)
+    {
+        return values[(int)statToGet].value;
+    }
 }
 [CreateAssetMenu(menuName ="Data/Pokemon")]
 public class PokemonData : ScriptableObject

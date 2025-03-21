@@ -15,7 +15,7 @@ MonoBehaviour:
   pokemonName: Grass Starter
   stats:
     values:
-    - value: 0
+    - value: 100
       stats: 0
     - value: 0
       stats: 1

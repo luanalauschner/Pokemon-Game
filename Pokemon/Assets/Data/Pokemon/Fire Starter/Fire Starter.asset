@@ -15,9 +15,9 @@ MonoBehaviour:
   pokemonName: Fire Starter
   stats:
     values:
-    - value: 0
+    - value: 100
       stats: 0
-    - value: 0
+    - value: 100
       stats: 1
     - value: 0
       stats: 2
